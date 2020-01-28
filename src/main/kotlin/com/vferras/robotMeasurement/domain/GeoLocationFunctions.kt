@@ -1,4 +1,4 @@
-package com.vferras.doMeasurement.domain
+package com.vferras.robotMeasurement.domain
 
 import java.math.BigDecimal
 import java.math.RoundingMode

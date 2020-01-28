@@ -1,7 +1,6 @@
-package com.vferras.doMeasurement.domain
+package com.vferras.robotMeasurement.domain
 
 import arrow.core.Either
-import org.springframework.context.annotation.Configuration
 import java.math.BigDecimal
 import java.math.RoundingMode
 import java.util.ArrayList

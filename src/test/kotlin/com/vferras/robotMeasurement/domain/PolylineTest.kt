@@ -1,4 +1,4 @@
-package com.vferras.doMeasurement.domain
+package com.vferras.robotMeasurement.domain
 
 import io.kotlintest.shouldBe
 import org.junit.jupiter.api.Test

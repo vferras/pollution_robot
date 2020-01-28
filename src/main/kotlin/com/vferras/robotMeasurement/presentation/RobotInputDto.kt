@@ -1,4 +1,4 @@
-package com.vferras.doMeasurement.presentation
+package com.vferras.robotMeasurement.presentation
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

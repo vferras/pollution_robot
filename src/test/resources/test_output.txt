@@ -1,0 +1,64 @@
+{“timestamp”: 1580339937, “location”: {“lat”: 51.504865932294415, “lng”: -0.21534288116401373}, “level”: “Good”, “source”: “robot”}
+{“timestamp”: 1580340837, “location”: {“lat”: 51.499610000359155, “lng”: -0.20889780654401435}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580341737, “location”: {“lat”: 51.49907112116247, “lng”: -0.19854212999763957}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580342637, “location”: {“lat”: 51.50227407121429, “lng”: -0.1870105256604728}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580343537, “location”: {“lat”: 51.50216341281879, “lng”: -0.17478386180619693}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580344438, “location”: {“lat”: 51.502533523801034, “lng”: -0.1618093491612859}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580345338, “location”: {“lat”: 51.502530695898784, “lng”: -0.15045182816393998}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580346238, “location”: {“lat”: 51.50313438763143, “lng”: -0.13805985301405424}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580347138, “location”: {“lat”: 51.50755975924954, “lng”: -0.1278641981567435}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580348038, “location”: {“lat”: 51.50738462644837, “lng”: -0.12176149175376161}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580339939, “location”: {“lat”: 51.510621335043055, “lng”: -0.11556357149822767}, “level”: “Moderate”, “source”: “TemplateStation”}
+{“timestamp”: 1580348939, “location”: {“lat”: 51.51107306590489, “lng”: -0.11103773351809199}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580349839, “location”: {“lat”: 51.51124918571408, “lng”: -0.09809517448708023}, “level”: “USG”, “source”: “robot”}
+{“timestamp”: 1580350739, “location”: {“lat”: 51.5116938834028, “lng”: -0.08808505286924584}, “level”: “Moderate”, “source”: “robot”}
+00:18:59.858 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:18:59.867 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:18:59.893 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.vferras.robotMeasurement.domain.PolylineTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:18:59.911 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vferras.robotMeasurement.domain.PolylineTest], using SpringBootContextLoader
+00:18:59.914 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.vferras.robotMeasurement.domain.PolylineTest]: class path resource [com/vferras/robotMeasurement/domain/PolylineTest-context.xml] does not exist
+00:18:59.915 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.vferras.robotMeasurement.domain.PolylineTest]: class path resource [com/vferras/robotMeasurement/domain/PolylineTestContext.groovy] does not exist
+00:18:59.915 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.vferras.robotMeasurement.domain.PolylineTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:18:59.916 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.vferras.robotMeasurement.domain.PolylineTest]: PolylineTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:18:59.961 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.vferras.robotMeasurement.domain.PolylineTest]
+00:19:00.052 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/victor.ferras/repositories/pollution_robot/build/classes/kotlin/main/com/vferras/Application.class]
+00:19:00.053 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.vferras.Application for test class com.vferras.robotMeasurement.domain.PolylineTest
+00:19:00.135 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.vferras.robotMeasurement.domain.PolylineTest]: using defaults.
+00:19:00.136 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+00:19:00.148 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+00:19:00.148 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+00:19:00.148 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@72303053, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28a42102, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23253f63, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2778bc4b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@54b9b25f, org.springframework.test.context.event.EventPublishingTestExecutionListener@5d9c35fb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57c8c70c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3530a35a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c02d4e9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@108d1f7f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ec4ac5]
+00:19:00.151 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7db3f62a testClass = PolylineTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3ddf8bfb testClass = PolylineTest, locations = '{}', classes = '{class com.vferras.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@590d00b1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@783b6bf7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@35e45ce5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5ce743db], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+00:19:00.170 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v2.3.0.M1)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v2.3.0.M1)
+
+{“timestamp”: 1580339942, “location”: {“lat”: 51.504865932294415, “lng”: -0.21534288116401373}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580340842, “location”: {“lat”: 51.499610000359155, “lng”: -0.20889780654401435}, “level”: “USG”, “source”: “robot”}
+{“timestamp”: 1580341743, “location”: {“lat”: 51.49907112116247, “lng”: -0.19854212999763957}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580342643, “location”: {“lat”: 51.50227407121429, “lng”: -0.1870105256604728}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580343543, “location”: {“lat”: 51.50216341281879, “lng”: -0.17478386180619693}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580344443, “location”: {“lat”: 51.502533523801034, “lng”: -0.1618093491612859}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580345344, “location”: {“lat”: 51.502530695898784, “lng”: -0.15045182816393998}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580346244, “location”: {“lat”: 51.50313438763143, “lng”: -0.13805985301405424}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580347144, “location”: {“lat”: 51.50755975924954, “lng”: -0.1278641981567435}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580348044, “location”: {“lat”: 51.50738462644837, “lng”: -0.12176149175376161}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580339944, “location”: {“lat”: 51.510621335043055, “lng”: -0.11556357149822767}, “level”: “Moderate”, “source”: “TemplateStation”}
+{“timestamp”: 1580348944, “location”: {“lat”: 51.51107306590489, “lng”: -0.11103773351809199}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580349845, “location”: {“lat”: 51.51124918571408, “lng”: -0.09809517448708023}, “level”: “Moderate”, “source”: “robot”}
+{“timestamp”: 1580350745, “location”: {“lat”: 51.5116938834028, “lng”: -0.08808505286924584}, “level”: “Moderate”, “source”: “robot”}

@@ -1,4 +1,4 @@
-package com.vferras.doMeasurement.presentation
+package com.vferras.robotMeasurement.presentation
 
 import io.kotlintest.shouldBe
 import org.junit.jupiter.api.Test

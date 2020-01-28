@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 val arrowVersion = "0.10.4"
 val kotlinTest = "3.3.2"
 val detektVersion = "1.4.0"
+val mockitoVersion = "2.1.0"
 
 plugins {
 	id("org.springframework.boot") version "2.3.0.M1"
@@ -47,6 +48,7 @@ dependencies {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
 	testImplementation("io.kotlintest:kotlintest-runner-junit5:$kotlinTest")
+	testImplementation("org.mockito:mockito-core:$mockitoVersion")
 
 }
 

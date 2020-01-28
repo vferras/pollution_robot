@@ -1,0 +1,14 @@
+{“timestamp”: (.*?), “location”: {“lat”: 51.504865932294415, “lng”: -0.21534288116401373}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.499610000359155, “lng”: -0.20889780654401435}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.49907112116247, “lng”: -0.19854212999763957}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.50227407121429, “lng”: -0.1870105256604728}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.50216341281879, “lng”: -0.17478386180619693}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.502533523801034, “lng”: -0.1618093491612859}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.502530695898784, “lng”: -0.15045182816393998}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.50313438763143, “lng”: -0.13805985301405424}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.50755975924954, “lng”: -0.1278641981567435}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.50738462644837, “lng”: -0.12176149175376161}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.510621335043055, “lng”: -0.11556357149822767}, “level”: “(.*?)”, “source”: “TemplateStation”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.51107306590489, “lng”: -0.11103773351809199}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.51124918571408, “lng”: -0.09809517448708023}, “level”: “(.*?)”, “source”: “robot”}
+{“timestamp”: (.*?), “location”: {“lat”: 51.5116938834028, “lng”: -0.08808505286924584}, “level”: “(.*?)”, “source”: “robot”}
